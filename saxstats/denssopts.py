@@ -148,6 +148,8 @@ def parse_arguments(parser,gnomdmax=None):
 
     if args.steps is 'None':
         args.steps = None
+
+    steps = None
     if args.steps is not None:
         steps = int(args.steps)
 
